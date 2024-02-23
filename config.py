@@ -1,0 +1,8 @@
+import os
+
+ACTIVE = True
+TOKEN = os.environ['TOKEN']
+ALLOWED_CHANNELS = [1048446276745826344, 1124288083689488565]
+GUILD_ID = [int(os.environ['GUILD'])]
+SERVERICON_URL = os.environ['ICON']
+BOTICON_URL = os.environ['BOTICON']
